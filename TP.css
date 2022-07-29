@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    color: black;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-color: black;
+    color:yellow;
+    padding: 10px;
+    overflow: auto;
+    
+}
+h1{
+    color: rgb(252, 252, 85) !important;
+}
+h1,
+nav,
+ul,
+nav>ul>li {
+    display: inline-block;
+    margin: 5px;
+}
+a{
+    color: yellow;
+    font-size: 1,3em;
+    text-decoration: none;
+    padding: 25px 15px;
+    border-top: 2px solid transparent;
+    border-right:2px solid transparent;
+
+}
+a:hover{
+    color: yellow;
+    background-color: rgb(190, 190, 150);
+    border-top: 2px solid yellow;
+    border-right: 2px solid yellow;
+    border-radius: 0px 10px 0px 10px;
+}
+header>span{
+    float: right;
+}
+header input{
+    height: 30px;
+    border-radius:5px;
+    margin-top:15px ;
+    margin-left: 6px;
+}
+header input:focus{
+ outline: 1px solid yellow;   
+}
+header button{
+    height: 30px;
+    border: thin solid yellow;
+    border-radius:5px;
+    background-color: transparent;
+    color: yellow;
+}
+header button:hover{
+    box-shadow: 0px 1px 1px rgb(243, 243, 132);
+}
+.banner{
+    display:block;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+main{
+margin: 30px;
+}
+section h3{
+    text-decoration: underline;
+    font-size: 2em;
+}
+section{
+    display: inline-block;
+    width: 65vw;
+}
+aside{
+    float: right;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 80px;
+}
+aside>h3{
+    width: 100%;
+    padding: 5px;
+    border-bottom: 2px double rgb(129, 128, 128);
+}
+.color-item{
+    background-color: yellowgreen;
+}
+.bold-item{
+    font-weight: 800;
+}
+#firstsection{
+    overflow: auto;
+}
+.clearfloat{
+    clear: both;
+}
+#imag1{
+    float: left;
+    margin-right: 5px;
+}
+#imag2{
+    float: right;
+    margin-left: 5px;
+}
+#secondsection article{
+    width: 42vw;
+    display: inline-block;
+    margin: 15px;
+}
+p{
+    text-align: justify;
+}
+footer{
+    color: yellow;
+    background-color: rgb(66, 66, 66);
+    height: 35px;
+}
+footer p {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
